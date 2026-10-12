@@ -1,0 +1,13 @@
+{
+  "name": "vitest-bail-stale-click-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "4.1.11",
+    "playwright": "1.61.1",
+    "vitest": "4.1.11"
+  }
+}
